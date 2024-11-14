@@ -29,7 +29,8 @@ public:
 	virtual void insertIndexMap(string n, BpTreeNode* pN) {}
 	virtual void deleteMap(string n) {}
 
-	virtual map<string, BpTreeNode*>* getIndexMap() { map<string, BpTreeNode*> m; return &m; }
-	virtual map<string, FlightData*> *getDataMap() { map<string, FlightData*> m; return &m; }
+	//OMG TOO MANY WARNINGS -> return local variable's address is equal to return nullptr;
+	virtual map<string, BpTreeNode*>* getIndexMap() { return nullptr; }
+	virtual map<string, FlightData*> *getDataMap() { return nullptr; }
 
 };

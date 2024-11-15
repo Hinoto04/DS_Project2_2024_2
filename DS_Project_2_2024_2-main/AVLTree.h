@@ -18,6 +18,7 @@ public:
 	bool		Insert(FlightData* pFlightData);
 	FlightData*	Search(string name);
 	void GetVector(vector<FlightData*>& v);
+	bool IsEmpty() { return root == nullptr; };
 };
 
 #endif

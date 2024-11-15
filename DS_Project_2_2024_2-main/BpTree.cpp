@@ -3,6 +3,7 @@
 bool BpTree::Insert(FlightData* newData){
 	//Empty to Root
 	cout << "Insert Start" << endl;
+	cout << newData->GetFlightNumber() << endl;
 	if (this->root == nullptr) {
 		this->root = new BpTreeDataNode();
 		this->root->insertDataMap(newData->GetFlightNumber(), newData);
@@ -13,6 +14,7 @@ bool BpTree::Insert(FlightData* newData){
 	BpTreeNode* p = nullptr;
 	BpTreeNode* cur = this->root;
 	while(true) {
+		cout << "Check" << endl;
 		map<string, BpTreeNode*>* m = cur->getIndexMap();
 		if(m == nullptr) break; //is DataNode
 		p = cur;
@@ -57,12 +59,13 @@ void BpTree::splitDataNode(BpTreeNode* pDataNode) {
 	newRight->setPrev(pDataNode);
 	newRight->setNext(pDataNode->getNext());
 	pDataNode->setNext(newRight);
-	for (auto iter = m->begin(); iter != m->end(); ++iter) {
+	for (auto iter = m->begin(); iter != m->end(); ++iter) { //copy all things
 		newRight->insertDataMap(iter->first, iter->second);
 	}
-	m->clear();
-	pDataNode->insertDataMap(newRight->getDataMap()->begin()->first, newRight->getDataMap()->begin()->second);
-	newRight->getDataMap()->erase(newRight->getDataMap()->begin()->first);
+	m->clear(); //clear original
+	pDataNode->insertDataMap(newRight->getDataMap()->begin()->first, 
+		newRight->getDataMap()->begin()->second); //add first map to original
+	newRight->getDataMap()->erase(newRight->getDataMap()->begin()->first); //erase first from new map
 
 	cout << "Splitted" << endl;
 	BpTreeNode* p = pDataNode->getParent();
@@ -84,17 +87,22 @@ void BpTree::splitDataNode(BpTreeNode* pDataNode) {
 	}
 }
 
-void BpTree::splitIndexNode(BpTreeNode* pIndexNode) {
+void BpTree::splitIndexNode(BpTreeNode* pIndexNode) { //Same to SplitDataNode
+	cout << "SplitIndexNode" << endl;
 	map<string, BpTreeNode*>* m = pIndexNode->getIndexMap();
-	auto iter = m->begin(); iter++; iter++; //Third Node
-	BpTreeIndexNode* right = new BpTreeIndexNode();
-	right->insertIndexMap(iter->first, iter->second);
-	iter = m->begin();
+	auto iter = m->begin(); //First Node
 	string temp = iter->first;
-	BpTreeNode* tempNode = iter->second;
+	BpTreeNode* tempNode = iter->second; 
+	iter++; //Second Node
+	BpTreeNode* mlc = iter->second;
+	iter++; //Third Node
+	BpTreeIndexNode* right = new BpTreeIndexNode();
+	right->setMostLeftChild(mlc);
+	right->insertIndexMap(iter->first, iter->second);
+	iter = m->begin(); iter++; //Second Node;
 	BpTreeNode* p = pIndexNode->getParent();
 	if (p == nullptr) {
-		cout << "New Root Making" << endl;
+		cout << "New Root Making idx" << endl;
 		p = new BpTreeIndexNode();
 		p->setMostLeftChild(pIndexNode);
 		p->insertIndexMap(iter->first, right);
@@ -114,17 +122,26 @@ void BpTree::splitIndexNode(BpTreeNode* pIndexNode) {
 }
 
 BpTreeNode* BpTree::searchDataNode(string name) {
+	cout << "SearchDataNode" << endl;
+	cout << name << endl;
 	BpTreeNode* cur = this->root;
-	if (cur == nullptr) return nullptr;
 	while (true) {
 		map<string, BpTreeNode*>* m = cur->getIndexMap();
 		if (m == nullptr) break; //is DataNode
 		cur = cur->getMostLeftChild(); //from MostLeft
-		for (auto iter = m->begin(); iter != m->end(); ++iter) {
-			if (name > iter->first) {
-				cur = iter->second;
+		map<string, FlightData*>* mm = cur->getDataMap();
+		if (mm == nullptr || mm->begin()->first != name) {
+			for (auto iter = m->begin(); iter != m->end(); ++iter) {
+				cout << name << " " << iter->first << endl;
+				if (name >= iter->first) {
+					cur = iter->second;
+				}
 			}
 		}
+		
+	}
+	if (cur != nullptr) {
+		cout << cur->getDataMap()->begin()->first << endl;
 	}
 	return cur;
 }
@@ -137,8 +154,10 @@ bool BpTree::SearchModel(string model_name) {
 		if (iter->first == model_name) fd = iter->second;
 	}
 	if (fd == nullptr) return false;
+	*fout << "========SEARCH_BP========" << endl;
 	*fout << fd->GetFlightNumber() << " | " << fd->GetAirlineName() << " | " << fd->GetDestination() << " | ";
 	*fout << fd->GetNumberofSeats() << " | " << fd->GetStatus() << endl;
+	*fout << "====================" << endl;
 	return true;
 }
 
@@ -150,14 +169,28 @@ bool BpTree::SearchRange(string start, string end) {
 		map<string, FlightData*>* m = cur->getDataMap();
 		for (auto iter = m->begin(); iter != m->end(); ++iter) {
 			if (iter->first > end) break;
-			FlightData* fd = iter->second;
-			*fout << fd->GetFlightNumber() << " | " << fd->GetAirlineName() << " | " << fd->GetDestination() << " | ";
-			*fout << fd->GetNumberofSeats() << " | " << fd->GetStatus() << endl;
+			if (iter->first > start)
 			count++;
 		}
 		cur = cur->getNext();
 	}
 	if (count < 0) return false;
+	*fout << "========SEARCH_BP========" << endl;
+	cur = searchDataNode(start);
+	while (cur != nullptr) {
+		if (cur->getDataMap()->begin()->first > end) break;
+		map<string, FlightData*>* m = cur->getDataMap();
+		for (auto iter = m->begin(); iter != m->end(); ++iter) {
+			if (iter->first > end) break;
+			if (iter->first > start) {
+				FlightData* fd = iter->second;
+				*fout << fd->GetFlightNumber() << " | " << fd->GetAirlineName() << " | " << fd->GetDestination() << " | ";
+				*fout << fd->GetNumberofSeats() << " | " << fd->GetStatus() << endl;
+			}
+		}
+		cur = cur->getNext();
+	}
+	*fout << "====================" << endl;
 	return true;
 }
 
@@ -166,6 +199,7 @@ void BpTree::Print() {
 	if (cur == nullptr) {
 		cout << "Nothing in B+Tree" << endl;
 	}
+	*fout << "========PRINT_BP========" << endl;
 	while (true) {
 		if (cur->getIndexMap() == nullptr) break;
 		if (cur->getMostLeftChild() != nullptr) {
@@ -176,10 +210,15 @@ void BpTree::Print() {
 		}
 	}
 	while (cur != nullptr) {
+		//*fout << "curNext" << endl;
 		map<string, FlightData*>* m = cur->getDataMap();
 		for (auto iter = m->begin(); iter != m->end(); ++iter) {
 			cout << iter->first << endl;
+			FlightData* fd = iter->second;
+			*fout << fd->GetFlightNumber() << " | " << fd->GetAirlineName() << " | " << fd->GetDestination() << " | ";
+			*fout << fd->GetNumberofSeats() << " | " << fd->GetStatus() << endl;
 		}
 		cur = cur->getNext();
 	}
+	*fout << "====================" << endl;
 }

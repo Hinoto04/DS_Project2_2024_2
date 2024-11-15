@@ -9,6 +9,7 @@ class Manager{
 private:
 	AVLTree		*avl;	// AVL tree
 	BpTree		*bp;		// B+ tree
+	ofstream	ofs;
 	vector<FlightData*> Print_vector;
 
 public:
@@ -18,7 +19,7 @@ public:
 	void	run(const char * command_txt);
 	bool	LOAD();
 	bool	VLOAD();
-	bool	ADD();
+	bool	ADD(string AName, string FName, string Dest, string Status);
 	bool	PRINT_BP();
 	bool	SEARCH_BP(string name);
 	bool	SEARCH_BP(string start, string end);

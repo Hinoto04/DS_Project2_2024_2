@@ -244,7 +244,7 @@ bool CompareB(FlightData* f1, FlightData* f2) {
 		else if (f1->GetStatus() < f2->GetStatus()) return true;
 		else {
 			if (f1->GetAirlineName() > f2->GetAirlineName()) return true;
-			else return true;
+			else return false;
 		}
 	}
 }

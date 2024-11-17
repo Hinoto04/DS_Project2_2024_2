@@ -126,8 +126,8 @@ FlightData* AVLTree::Search(string name){
 	AVLNode* cur = this->root;
 	while (cur != nullptr) {
 		if (cur->getFlightData()->GetFlightNumber() == name) break;
-		if (cur->getFlightData()->GetFlightNumber() < name) cur = cur->getLeft();
-		else cur = cur->getRight();
+		if (cur->getFlightData()->GetFlightNumber() < name) cur = cur->getRight();
+		else cur = cur->getLeft();
 	}
 	if (cur == nullptr) return nullptr;
 	return cur->getFlightData();

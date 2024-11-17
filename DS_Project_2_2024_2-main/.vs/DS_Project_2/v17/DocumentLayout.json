@@ -1,49 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\",
+  "WorkspaceRootPath": "C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:BpTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:AVLTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\Manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\Manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:Manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|D:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\XTREE||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:AVLTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:BpTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:AVLTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\FlightData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:FlightData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:BpTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTreeDataNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:BpTreeDataNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\Manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:Manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTreeNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:BpTreeNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTreeIndexNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{690A654B-AD9E-47BA-B82F-1BAA19448EC7}|DS_Project_2.vcxproj|solutionrelative:BpTreeIndexNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xtree||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,148 +34,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "xtree",
-              "DocumentMoniker": "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xtree",
-              "ToolTip": "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xtree",
-              "ViewState": "AQIAAEMEAAAAAAAAAAAMwFoEAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-15T01:55:01.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AVLTree.h",
-              "DocumentMoniker": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.h",
+              "DocumentMoniker": "C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.h",
               "RelativeDocumentMoniker": "AVLTree.h",
-              "ToolTip": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.h",
+              "ToolTip": "C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.h",
               "RelativeToolTip": "AVLTree.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-14T18:18:46.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T18:18:46.294Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Manager.cpp",
-              "DocumentMoniker": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\Manager.cpp",
-              "RelativeDocumentMoniker": "Manager.cpp",
-              "ToolTip": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\Manager.cpp",
-              "RelativeToolTip": "Manager.cpp",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAAAMMAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T17:52:00.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "BpTree.cpp",
-              "DocumentMoniker": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTree.cpp",
+              "DocumentMoniker": "C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTree.cpp",
               "RelativeDocumentMoniker": "BpTree.cpp",
-              "ToolTip": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTree.cpp",
+              "ToolTip": "C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTree.cpp",
               "RelativeToolTip": "BpTree.cpp",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIcAAAAeAAAA",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAAAHYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-13T17:51:58.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "xtree",
+              "DocumentMoniker": "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xtree",
+              "ToolTip": "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xtree",
+              "ViewState": "AQIAAEMEAAAAAAAAAAAMwFoEAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-15T01:55:01.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Manager.cpp",
+              "DocumentMoniker": "C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\Manager.cpp",
+              "RelativeDocumentMoniker": "Manager.cpp",
+              "ToolTip": "C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\Manager.cpp",
+              "RelativeToolTip": "Manager.cpp",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAAAPQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-13T17:52:00.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AVLTree.cpp",
-              "DocumentMoniker": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.cpp",
+              "DocumentMoniker": "C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.cpp",
               "RelativeDocumentMoniker": "AVLTree.cpp",
-              "ToolTip": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.cpp",
+              "ToolTip": "C:\\GitHub\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\AVLTree.cpp",
               "RelativeToolTip": "AVLTree.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-13T17:51:58.322Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FlightData.h",
-              "DocumentMoniker": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\FlightData.h",
-              "RelativeDocumentMoniker": "FlightData.h",
-              "ToolTip": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\FlightData.h",
-              "RelativeToolTip": "FlightData.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-14T19:14:46.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BpTreeNode.h",
-              "DocumentMoniker": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTreeNode.h",
-              "RelativeDocumentMoniker": "BpTreeNode.h",
-              "ToolTip": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTreeNode.h",
-              "RelativeToolTip": "BpTreeNode.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T18:18:13.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BpTreeIndexNode.h",
-              "DocumentMoniker": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTreeIndexNode.h",
-              "RelativeDocumentMoniker": "BpTreeIndexNode.h",
-              "ToolTip": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTreeIndexNode.h",
-              "RelativeToolTip": "BpTreeIndexNode.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T18:09:56.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BpTree.h",
-              "DocumentMoniker": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTree.h",
-              "RelativeDocumentMoniker": "BpTree.h",
-              "ToolTip": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTree.h",
-              "RelativeToolTip": "BpTree.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T18:02:20.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BpTreeDataNode.h",
-              "DocumentMoniker": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTreeDataNode.h",
-              "RelativeDocumentMoniker": "BpTreeDataNode.h",
-              "ToolTip": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\BpTreeDataNode.h",
-              "RelativeToolTip": "BpTreeDataNode.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T18:09:45.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Manager.h",
-              "DocumentMoniker": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\Manager.h",
-              "RelativeDocumentMoniker": "Manager.h",
-              "ToolTip": "I:\\Github\\DS_Project2_2024_2\\DS_Project_2_2024_2-main\\Manager.h",
-              "RelativeToolTip": "Manager.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-14T18:16:08.703Z",
               "EditorCaption": ""
             }
           ]
